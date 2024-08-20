@@ -1,8 +1,24 @@
 {
     "routes": [
     {
-      "src": "/(.*)",
+      "src": "/",
       "dest": "/"
+    },
+    {
+        "src": "/product",
+        "dest": "/"
+    },
+    {
+        "src": "/event",
+        "dest": "/"
+    },
+    {
+        "src": "/about",
+        "dest": "/"
+    },
+    {
+        "src": "/card140",
+        "dest": "/"
     }
   ]
 }
