@@ -80,21 +80,21 @@ const Herosec = () => {
           <div className="col2-wrapper">
             <h1 className="main-heading">MI-512GT</h1>
             <p className="hero-para">
-            <ol>
-              <li className="mb-3" ><span>&#8226;</span>&nbsp;&nbsp;12-digit desktop calculator,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;  Clear LCD display,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Multi-replay function,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Designed for both Home and Office use,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Long-lasting performance Ideal for students,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Combines functionality. User-friendly design,
-              </li>
-              <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;Arithmetic operations, Tax calculations,
-              </li>
+              <ol>
+                <li className="mb-3" ><span>&#8226;</span>&nbsp;&nbsp;12-digit desktop calculator,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;  Clear LCD display,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Multi-replay function,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Designed for both Home and Office use,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Long-lasting performance Ideal for students,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Combines functionality. User-friendly design,
+                </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;Arithmetic operations, Tax calculations,
+                </li>
               </ol>
             </p>
             <span className="dollar">INR-120</span>

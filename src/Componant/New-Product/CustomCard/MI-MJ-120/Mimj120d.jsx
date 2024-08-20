@@ -83,6 +83,8 @@ const Herosec = () => {
             <ol>
                 <li className="mb-3" ><span>&#8226;</span>&nbsp;&nbsp;12-digit desktop calculator,
                 </li>
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Disp / GT / MU
+                </li>
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;  Clear LCD display,
                 </li>
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Multi-replay function,
@@ -92,8 +94,6 @@ const Herosec = () => {
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Long-lasting performance Ideal for students,
                 </li>
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Combines functionality. User-friendly design,
-                </li>
-                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;Arithmetic operations, Tax calculations,
                 </li>
               </ol>
             </p>
