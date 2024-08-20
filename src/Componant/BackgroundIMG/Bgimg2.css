@@ -1,0 +1,53 @@
+.mar1{
+    margin-top: 75px;
+  }
+.img1{
+    width: 100%; 
+        height:550px;
+        background-image: url(./Sbanner/BNR2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+.img2{
+    width: 100%; 
+        height:550px;
+        background-image: url(./Sbanner/BNR1.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+.img3{
+    width: 100%; 
+        height:550px;
+        background-image: url(./Sbanner/BNR3.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+}
+@media only screen and (max-width: 786px) {
+    .img1{
+        width: 100%; 
+            height:550px;
+            background-image: url(./Sbanner/PH1.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+    }
+    .img2{
+        width: 100%; 
+            height:550px;
+            background-image: url(./Sbanner/PH2.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+    }
+    .img3{
+        width: 100%; 
+            height:550px;
+            background-image: url(./Sbanner/PH3.jpg);
+            background-size: cover;
+            background-position: center;
+            position: relative;
+    }
+}

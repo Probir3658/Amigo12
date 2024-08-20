@@ -1,0 +1,413 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+.image-text{
+    margin-top: 75px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+
+.text1{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(117, 10, 10);
+    font-size: 3rem;
+} 
+.text2{
+    position: absolute;
+    bottom: 28%;
+    left: 5%;
+    height: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 10, 10);
+    font-size: 1.2rem;
+}    
+
+.space{
+    height: 1000px;
+    background-color: rgb(187, 187, 187);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+  .image-text1{
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.text11{
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: aliceblue;
+} 
+.text12{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    height: 35%;
+    width: 25%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-align: justify;
+}    
+.text13{
+    position: absolute;
+    top: 19%;
+    right: 8%;
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: aliceblue;
+} 
+.text14{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    height: 35%;
+    width: 25%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-align:justify;
+}    
+.underline{
+    color: orange;
+}
+.spon{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.img13{
+    width: 100%; 
+    height: 60vh;
+    background-image: url(./Image/OURTNS.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+.img12{
+    width: 100%; 
+    height: 120vh;
+    background-image: url(./Image/Bgimg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+@media only screen and (max-width: 786px) {
+    .img13{
+        width: 100%; 
+        height: 300px;
+        background-image: url(./Image/OURTNS.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img12{
+        width: 100%; 
+        height: 610px;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+    .text2{
+        position: absolute;
+        top: 32%;
+        left: 5%;
+        height: 35%;
+        width: 83%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-size: 0.7rem;
+    }    
+    .text1{
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0rem;
+    } 
+    .text11{
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        width: 35%;
+        font-size:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: orange;
+    } 
+    .text12{
+        position: absolute;
+        bottom: 25%;
+        left: 5%;
+        height: 35%;
+        width: 37%;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0.8rem;
+        text-align: center;
+    }    
+    .text13{
+        position: absolute;
+        top: 8%;
+        right: 8%;
+        width: 35%;
+        font-size:19px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: orange;
+    } 
+    .text14{
+        position: absolute;
+        bottom: 25%;
+        right: 8%;
+        height: 31%;
+        width: 37%;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size:0.8rem;
+        text-align: center;
+    }    
+    
+  }
+  
+  @media only screen and (min-width: 768px)  {
+    .img13{
+        width: 100%; 
+        height: 450px;
+        background-image: url(./Image/OURTNS.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img12{
+        width: 100%; 
+        height: 620px;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+    .text2{
+        position: absolute;
+        top: 31%;
+        left: 5%;
+        height: 35%;
+        width: 83%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+    }    
+    .text1{
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0rem;
+    } 
+    .text11{
+        position: absolute;
+        top: 8%;
+        left: 8%;
+        width: 25%;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: orange;
+    } 
+    .text12{
+        position: absolute;
+        bottom: 25%;
+        left: 5%;
+        height: 35%;
+        width: 30%;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        text-align: center;
+    }    
+    .text13{
+        position: absolute;
+        top: 8%;
+        right: 4%;
+        width: 35%;
+        font-size: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: orange;
+    } 
+    .text14{
+        position: absolute;
+        bottom: 25%;
+        right: 5%;
+        height: 35%;
+        width: 30%;
+        display: flex;  
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+        text-align: center;
+    }    
+    
+  }
+
+  @media screen and (min-width: 1080px) {
+.img13{
+        width: 100%; 
+        height: 450px;
+        background-image: url(./Image/OURTNS.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+.img12{
+        width: 100%; 
+        height: 800px;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+    
+.text1{
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(117, 10, 10);
+    font-size: 3rem;
+} 
+.text2{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    height: 35%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(117, 10, 10);
+    font-size: 1.2rem;
+}    
+.text11{
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: orange;
+} 
+.text12{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    height: 35%;
+    width: 25%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}    
+.text13{
+    position: absolute;
+    top: 3%;
+    right: 8%;
+    width: 20%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: orange;
+} 
+.text14{
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    height: 35%;
+    width: 25%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+}    
+  }
