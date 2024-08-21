@@ -1,9 +1,9 @@
 .mar1{
     margin-top: 75px;
   }
-.img1{
+.img1{  
     width: 100%; 
-        height:550px;
+    height:550px;  
         background-image: url(./Sbanner/BNR2.jpg);
         background-size: cover;
         background-position: center;

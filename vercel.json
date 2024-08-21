@@ -19,6 +19,78 @@
     {
         "src": "/card140",
         "dest": "/"
+    },
+    {
+        "src": "/card912nd",
+        "dest": "/"
+    },
+    {
+        "src": "/card140gc",
+        "dest": "/"
+    },
+    {
+        "src": "/card912gc",
+        "dest": "/"
+    },
+    {
+        "src": "/card121dlx",
+        "dest": "/"
+    },
+    {
+        "src": "/card141e",
+        "dest": "/"
+    },
+    {
+        "src": "/card512gc",
+        "dest": "/"
+    },
+    {
+        "src": "/card556n",
+        "dest": "/"
+    },
+    {
+        "src": "/card512gt",
+        "dest": "/"
+    },
+    {
+        "src": "/card837n",
+        "dest": "/"
+    },
+    {
+        "src": "/card888n",
+        "dest": "/"
+    },
+    {
+        "src": "/card913vs",
+        "dest": "/"
+    },
+    {
+        "src": "/card847",
+        "dest": "/"
+    },
+    {
+        "src": "/card786n",
+        "dest": "/"
+    },
+    {
+        "src": "/card120d",
+        "dest": "/"
+    },
+    {
+        "src": "/card513",
+        "dest": "/"
+    },
+    {
+        "src": "/card912",
+        "dest": "/"
+    },
+    {
+        "src": "/card82ms",
+        "dest": "/"
+    },
+    {
+        "src": "/card201",
+        "dest": "/"
     }
   ]
 }

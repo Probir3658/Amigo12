@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div className='map1'>
       
-      <div className='image-text'>
+      <div className='image-text' >
         {/* <img src={img} className='img12'/> */}
         <div className='img12'></div>
         <p className='text2'>Amigo is a brand operating under Mitra agro enterprises Ltd based in West Bengal, India.<br/><br/>
@@ -34,7 +34,7 @@ const About = () => {
         <p className='text14'>"QUALITY FIRST,COST SECOND"<br/> Our AIM is to have better creativity, team work and a constantly evolving atmosphere within the organisation. Our Core Value is to Satisfy the Customer needs.</p>
       </div>
       <div>
-        <img src={img4} className='spon'/>
+        <img src={img4} alt="Our Clint" className='spon'/>
       </div>
       <div>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117878.8697486497!2d88.27334022484438!3d22.58977224980281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0277c9af98dae1%3A0xb6ca6e71295ec47f!2samigo!5e0!3m2!1sen!2sin!4v1722944286385!5m2!1sen!2sin" 
@@ -43,7 +43,7 @@ const About = () => {
         style={{border:0}}
         allowFullScreen="" 
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        referrerPolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   )
