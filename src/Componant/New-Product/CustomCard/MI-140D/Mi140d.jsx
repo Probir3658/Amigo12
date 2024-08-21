@@ -1,6 +1,8 @@
 import Sneakers from "./Sneakers";
+import { Sidebar } from "primereact/sidebar";
 import { useState, useEffect, useRef } from "react";
 const Herosec = () => {
+  const [visibleRight, setVisibleRight] = useState(false);
   const [items, setItems] = useState(0);
   const [cart, setCart] = useState(0);
   const myRef1 = useRef(null);
@@ -100,7 +102,7 @@ const Herosec = () => {
               <span className="dollar">INR-540</span>
               <span className="discount hero-subHeading">10%</span>
               <del className="discount2 hero-para">INR-600</del>
-              <div className="cart2-sec">
+              {/* <div className="cart2-sec">
                 <div className="cart2-col cart2-col1">
                   <span
                     className="minus"
@@ -160,6 +162,99 @@ const Herosec = () => {
                     </svg>
                     <span className="cart2-text">Checkout</span>
                   </button>
+                </div>
+              </div> */}
+               <div className="cart2-sec">
+               
+                <div className="cart2-col cart2-col2">
+                  <button
+                    className="cart2-btn"
+                    onClick={() => setVisibleRight(true)}
+                  >
+                    <span className="cart2-text">Inquiry</span>
+                  </button>
+                  <Sidebar
+        visible={visibleRight}
+        position="right"
+        onHide={() => setVisibleRight(false)}
+        className="sidebar-final"
+      >
+        <div className="modal-body ">
+          <form
+            action="https://formspree.io/f/mwpeojew"
+            method="POST"
+            className="contact-inputs"
+          >
+            <div className="pt-3 hero-subHeading text-center d-flex">
+              <h3>
+                {" "}
+                &nbsp;&nbsp;<u className="text-black">Tell Us</u> Your Query
+              </h3>
+            </div>
+            <div className="px-4 pb-4">
+              <input
+                type="text"
+                className="form-control"
+                name="Name"
+                placeholder="Your Name"
+                aria-label="Last name"
+              />
+            </div>
+            <div className="px-4 pb-4">
+              <input
+                type="text"
+                className="form-control"
+                name="Email"
+                placeholder="Your Email"
+                aria-label="Last name"
+              />
+            </div>
+            <div className="px-4 pb-4">
+              <input
+                type="text"
+                className="form-control"
+                name="Phone"
+                placeholder="Your Phone"
+                aria-label="Last name"
+              />
+            </div>
+            <div className="px-4 pb-4">
+              <select
+                className="form-select form-select-sm"
+                name="Quiry"
+                aria-label="Small select example"
+              >
+                <option selected>--Please choose an option--</option>
+                <option value="1">Corporate Enquiry</option>
+                <option value="2">Domestic Enquiry</option>
+                <option value="3">Export Enquiry</option>
+              </select>
+            </div>
+            <div className="px-4 pb-4">
+              <input
+                type="text"
+                className="form-control"
+                name="Location"
+                placeholder="Your Location"
+                aria-label="Last name"
+              />
+            </div>
+            <div className="px-4 pb-4">
+              <textarea
+                className="form-control"
+                placeholder="Leave a comment here"
+                name="Comment"
+                id="floatingTextarea"
+              ></textarea>
+            </div>
+            <div className="px-4 pb-4">
+              <button type="button submit" className="btn btn-primary">
+                SUBMIT
+              </button>
+            </div>
+          </form>
+        </div>
+      </Sidebar>
                 </div>
               </div>
             </div>

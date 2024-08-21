@@ -6,7 +6,7 @@ import img3 from "./Sbanner/B40.jpg";
 
 const Bgimg2 = () => {
   return (
-    <div className="mar1">
+    <div>
       <div
         id="carouselExampleInterval"
         className="carousel slide"

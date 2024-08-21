@@ -4,38 +4,11 @@
     box-sizing: border-box;
     font-family:sans-serif;
 }
-.image-text{
-    margin-top: 75px;
+.image-text{    
     display: block;
     position: relative;
     cursor: pointer;
 }
-
-.text1{
-    position: absolute;
-    top: 30px;
-    left: 70px;
-    width: 230px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    color: rgb(117, 10, 10);
-    font-size: 3rem;
-} 
-.text2{
-    position: absolute;
-    bottom: 28%;
-    left: 5%;
-    height: 35%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(117, 10, 10);
-    font-size: 1.2rem;
-}    
-
 .space{
     height: 1000px;
     background-color: rgb(187, 187, 187);
@@ -126,10 +99,10 @@
     position: relative;
 
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
     .img13{
         width: 100%; 
-        height: 300px;
+        height: 75vw;
         background-image: url(./Image/OURTNS.jpg);
         background-size: cover;
         background-position: center;
@@ -137,7 +110,7 @@
     }
     .img12{
         width: 100%; 
-        height: 610px;
+        height: 200vw;
         background-image: url(./Image/Bgimg.jpg);
         background-size: cover;
         background-position: center;
@@ -145,15 +118,15 @@
     }
     .text2{
         position: absolute;
-        top: 32%;
-        left: 5%;
-        height: 35%;
-        width: 83%;
+        top: 10px;
+        left: 10px;
+        right: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 5px;
         color: rgb(0, 0, 0);
-        font-size: 0.7rem;
+        font-size: 3.6vw;
     }    
     .text1{
         position: absolute;
@@ -169,8 +142,8 @@
     } 
     .text11{
         position: absolute;
-        top: 8%;
-        left: 8%;
+        top:7vw;
+        left: 7vw;
         width: 35%;
         font-size:20px;
         display: flex;
@@ -181,22 +154,20 @@
     } 
     .text12{
         position: absolute;
-        bottom: 25%;
-        left: 5%;
-        height: 35%;
-        width: 37%;
+        left: 7vw;
+        width: 37vw;
         display: flex;  
         justify-content: center;
         align-items: center;
         border-radius: 5px;
         color: rgb(255, 255, 255);
-        font-size: 0.8rem;
+        font-size: 3.2vw;
         text-align: center;
     }    
     .text13{
         position: absolute;
-        top: 8%;
-        right: 8%;
+        top:7vw;
+        right: 7vw;
         width: 35%;
         font-size:19px;
         display: flex;
@@ -207,22 +178,61 @@
     } 
     .text14{
         position: absolute;
-        bottom: 25%;
-        right: 8%;
-        height: 31%;
-        width: 37%;
+        right: 7vw;
+        width:37vw;
         display: flex;  
         justify-content: center;
         align-items: center;
         border-radius: 5px;
         color: rgb(255, 255, 255);
-        font-size:0.8rem;
+        font-size:3.2vw;
         text-align: center;
     }    
     
   }
+  @media only screen and (min-width: 600px){
+    .img13{
+        width: 100%; 
+        background-image: url(./Image/OURTNS.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img12{
+        width: 100%; 
+        height: 200vw;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+    .text2{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-size: 3.6vw;
+    } 
+    .text1{
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        font-size: 0rem;
+    } 
+  }
   
-  @media only screen and (min-width: 768px)  {
+  @media only screen and (min-width: 768px) {
     .img13{
         width: 100%; 
         height: 450px;
@@ -239,18 +249,33 @@
         background-position: center;
         position: relative; 
     }
+    .img13{
+        width: 100%; 
+        background-image: url(./Image/OURTNS.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    .img12{
+        width: 100%; 
+        height: 145vw;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
     .text2{
         position: absolute;
-        top: 31%;
-        left: 5%;
-        height: 35%;
-        width: 83%;
+        top: 30px;
+        left: 30px;
+        right: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 5px;
         color: rgb(0, 0, 0);
-        font-size: 1rem;
-    }    
+        font-size: 3vw;
+    } 
     .text1{
         position: absolute;
         top: 10px;
@@ -317,8 +342,42 @@
     }    
     
   }
-
-  @media screen and (min-width: 1080px) {
+  @media only screen and (min-width: 992px){
+    .img12{
+        width: 100%; 
+        height:90vw;
+        background-image: url(./Image/Bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative; 
+    }
+    .text1{
+        position: absolute;
+        top: 0.9vw;
+        left: 4vw;
+        width: 230px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(117, 10, 10);
+        font-size: 3rem;
+    } 
+    .text2{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        color: rgb(0, 0, 0);
+        font-size: 2vw;
+        width:70vw;
+    } 
+  }
+  @media only screen and (min-width: 1480px){
 .img13{
         width: 100%; 
         height: 450px;
@@ -327,20 +386,22 @@
         background-position: center;
         position: relative; 
     }
-.img12{
-        width: 100%; 
-        height: 800px;
+    .img12{
+        width: 100vw; 
+        height:750px;
         background-image: url(./Image/Bgimg.jpg);
         background-size: cover;
         background-position: center;
         position: relative; 
     }
-    
+    .map1{
+        margin-top: 4.9vw;
+    }
 .text1{
     position: absolute;
-    top: 12px;
-    left: 70px;
-    width: 230px;
+    top: 0.9vw;
+    left: 4vw;
+    width:50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -350,10 +411,8 @@
 } 
 .text2{
     position: absolute;
-    top: 35%;
-    left: 5%;
-    height: 35%;
-    width: 50%;
+    left: 4vw;
+    width: 750px;
     display: flex;
     justify-content: center;
     align-items: center;

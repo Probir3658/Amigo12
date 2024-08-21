@@ -1,18 +1,15 @@
 import './About.css'
 import React from 'react'
-import img2 from "./Image/LOGO1.png"
-import img3 from "./Image/OURTNS.jpg"
-import img4 from "./Image/CORPORATE-LOGO.jpg"
-import CountUp from "react-countup";
+import img4 from "./Image/CORPORATE-LOGO1.jpg"
 import Counter from './Counter/Counter'
 
 const About = () => {
   return (
-    <div className='map1'>
+    <div>
       
       <div className='image-text' >
-        {/* <img src={img} className='img12'/> */}
         <div className='img12'></div>
+        {/* <div className='text1'>About Us</div> */}
         <p className='text2'>Amigo is a brand operating under Mitra agro enterprises Ltd based in West Bengal, India.<br/><br/>
 
           Over the decade the company has built its significance inside the domestic and the international market. The company essentially involves and believes in house manufacturing, endeavoring to provide the best to its customers. We can be recognized as one of the largest manufacturing units of calculators in India. The vision of the company is to provide the best in quality of products with unbeatable prices. With a constant effort and continuous progress of enhancing features that was never offered before. Therefore, raising bars and gifting its consumers with more lavishing designs and extraordinary products.<br/><br/>
@@ -20,7 +17,6 @@ const About = () => {
           With a strength of over hundreds of heads and an area of 100 acres the company believes to expand in the international markets. We endeavour to offer high-quality calculators and personalized customer service while motivating motivation, creativity and teamwork in a constantly evolving environment. As core values, we wish to deliver satisfaction to our customer.<br/><br/>
 
           We are a reliable manufacturer, distributor/wholesaler, exporter, trader and<br/> supplier of high-end as well as modern calculators in the market since <br/>2009.A Make In India member and a brainchild of Mr. Joydeb Mitra, we <br/>produce bulk products within the stipulated period. Thus, we are attentive towards the punctuality of product delivery.</p>
-        <div className='text1'>About Us</div>
       </div>
         <div>
           <Counter/>

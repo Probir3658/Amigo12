@@ -31,6 +31,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+      <div className='navbar-back'></div>
     </div>
   )
 }

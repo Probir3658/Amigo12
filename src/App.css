@@ -239,7 +239,10 @@
 .hi p:hover {
   flex: 4;
 }
-
+.navbar-back{
+  height: 76px;
+  background-color: #aa0909;
+}
 .hi p span {
   min-width: 14em;
   padding: .5em;
