@@ -124,7 +124,7 @@ const Herosec = () => {
                   </defs>
                   <use fill="#FF7E1B" fillRule="nonzero" xlinkHref="#a" />
                 </svg> */}
-                <span
+                {/* <span
                   className="minus"
                   onClick={() => {
                     let count = items - 1;
@@ -181,7 +181,14 @@ const Herosec = () => {
                     />
                   </svg>
                   <span className="cart2-text">Add to cart</span>
-                </button>
+                </button> */}
+                <div className="cart2-sec">
+                <div className="cart2-col cart2-col2">
+                  <button className="cart2-btn">
+                    <span className="cart2-text">Inquiry</span>
+                  </button>
+                </div>
+              </div>
               </div>
             </div>
           </div>

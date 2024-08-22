@@ -99,10 +99,10 @@ const Herosec = () => {
             <span className="dollar">INR-528</span>
             <span className="discount hero-subHeading">10%</span>
             <del className="discount2 hero-para">INR-587</del>
-            <div className="cart2-sec">
+            {/* <div className="cart2-sec">
               <div className="cart2-col cart2-col1">
-                {/* <button className="minus">-</button> */}
-                {/* <svg
+                <button className="minus">-</button>
+                 <svg
                   onClick={() => {
                     let count = items - 1;
                     if (count < 1) {
@@ -123,7 +123,7 @@ const Herosec = () => {
                     />
                   </defs>
                   <use fill="#FF7E1B" fillRule="nonzero" xlinkHref="#a" />
-                </svg> */}
+                </svg>
                 <span
                   className="minus"
                   onClick={() => {
@@ -183,7 +183,14 @@ const Herosec = () => {
                   <span className="cart2-text">Add to cart</span>
                 </button>
               </div>
-            </div>
+            </div> */}
+            <div className="cart2-sec">
+                <div className="cart2-col cart2-col2">
+                  <button className="cart2-btn">
+                    <span className="cart2-text">Inquiry</span>
+                  </button>
+                </div>
+              </div>
           </div>
         </div>
       </div>

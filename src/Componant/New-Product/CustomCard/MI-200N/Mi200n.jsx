@@ -24,7 +24,7 @@ const Herosec = () => {
   });
 
   return (
-    <>
+    <>  
     <div className="hero-sec content-div">
       <div ref={shadowRef} className="shadow"></div>
       <div className="cart-box">
