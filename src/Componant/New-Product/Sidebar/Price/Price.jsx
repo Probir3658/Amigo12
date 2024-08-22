@@ -27,15 +27,15 @@ const Price = ({ handleChange }) => {
 
         <Input
           handleChange={handleChange}
-          value={600}
-          title="₹401 - ₹600"
+          value={500}
+          title="₹401 - ₹500"
           name="test2"
         />
 
         <Input
           handleChange={handleChange}
-          value={601}
-          title="Over ₹601"
+          value={501}
+          title="Over ₹501"
           name="test2"
         />
       </div>
