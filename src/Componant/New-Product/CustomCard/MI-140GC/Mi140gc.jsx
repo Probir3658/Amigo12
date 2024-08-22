@@ -96,9 +96,9 @@ const Herosec = () => {
                 </li>
               </ol>
             </p>
-            <span className="dollar">INR-584</span>
+            <span className="dollar">INR-585</span>
             <span className="discount hero-subHeading">10%</span>
-            <del className="discount2 hero-para">INR-649</del>
+            <del className="discount2 hero-para">INR-650</del>
             {/* <div className="cart2-sec">
               <div className="cart2-col cart2-col1">
                 <span

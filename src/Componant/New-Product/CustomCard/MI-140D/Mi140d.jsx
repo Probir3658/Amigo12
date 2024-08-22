@@ -163,12 +163,9 @@ const Herosec = () => {
                   </button>
                 </div>
               </div> */}
-               <div className="cart2-sec">
-               
+              <div className="cart2-sec">
                 <div className="cart2-col cart2-col2">
-                  <button
-                    className="cart2-btn"
-                  >
+                  <button className="cart2-btn">
                     <span className="cart2-text">Inquiry</span>
                   </button>
                 </div>
