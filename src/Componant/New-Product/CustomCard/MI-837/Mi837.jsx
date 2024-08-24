@@ -92,7 +92,7 @@ const Herosec = () => {
                 </li>
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Combines functionality. User-friendly design,
                 </li>
-                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp;Arithmetic operations, Tax calculations,
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; AA Battery,
                 </li>
               </ol>
             </p>

@@ -1,11 +1,11 @@
-import img1 from "./Image/201N1.jpg";
+import img1 from "./Image/201N11.jpg";
 import img2 from "./Image/201N1.jpg";
 import img3 from "./Image/201N1.jpg";
-import img4 from "././Image/201N1.jpg";
-import img1Icon from "./Image/201N1.jpg";
+import img4 from "././Image/201N12.jpg";
+import img1Icon from "./Image/201N11.jpg";
 import img2Icon from "./Image/201N1.jpg";
 import img3Icon from "./Image/201N1.jpg";
-import img4Icon from "./Image/201N1.jpg";
+import img4Icon from "./Image/201N12.jpg";
 import { useState } from "react";
 
 import LightBox from "./LightBox";

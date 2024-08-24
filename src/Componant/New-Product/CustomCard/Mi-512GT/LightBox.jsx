@@ -1,11 +1,11 @@
-import img1 from "./Image/GT1.jpg";
+import img1 from "./Image/GT6.jpg";
 import img2 from "./Image/GT2.jpg";
 import img3 from "./Image/GT3.jpg";
-import img4 from "././Image/GT4.jpg";
-import img1Icon from "./Image/GT1.ico";
+import img4 from "././Image/GT5.jpg";
+import img1Icon from "./Image/GT6.ico";
 import img2Icon from "./Image/GT2.ico";
 import img3Icon from "./Image/GT3.ico";
-import img4Icon from "./Image/GT4.ico";
+import img4Icon from "./Image/GT5.ico";
 import { useState, useEffect } from "react";
 const LightBox = (num) => {
   //   let number = 1 + props.imageTrack;

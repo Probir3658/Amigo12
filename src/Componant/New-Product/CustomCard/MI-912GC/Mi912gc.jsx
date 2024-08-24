@@ -92,7 +92,7 @@ const Herosec = () => {
                 </li>
                 <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Long-lasting performance Ideal for students,
                 </li>
-                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; Combines functionality. User-friendly design,
+                <li className="my-3"><span>&#8226;</span>&nbsp;&nbsp; AA Battery,
                 </li>
               </ol>
             </p>

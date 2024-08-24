@@ -26,7 +26,7 @@ const Counter = () => {
               <h2><CountUp start={0} end={100} duration={10}/>+</h2>
           </div>
           <div className='name3'>
-            Distributors
+            Distributor
           </div>
         </div>
         <div className="col name12"> 
