@@ -4,7 +4,6 @@ import Navbar from "./Componant/Navbar/Navbar";
 import Bgimg2 from "./Componant/BackgroundIMG/Bgimg2";
 import Card2 from "./Componant/BackgroundIMG/Card2";
 import Maincard from "./Componant/New-Product/Maincard";
-import Footer from "./Componant/Footer/Footer";
 import About from "./Componant/About/About";
 import Footer2 from "./Componant/Footer/Footer2";
 import * as React from "react";

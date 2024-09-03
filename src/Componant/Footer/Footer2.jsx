@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import logo from "./LOGO1.png";
+import logo from "./Amigologo.png";
 import { Link } from "react-feather";
 
 const Footer2 = () => {
