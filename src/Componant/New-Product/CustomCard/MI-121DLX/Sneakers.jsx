@@ -8,7 +8,6 @@ import img3Icon from "./Image/121DLX1.jpg";
 import img4Icon from "./Image/121DLX1.jpg";
 import { useState } from "react";
 
-import LightBox from "./LightBox";
 const Sneakers = () => {
   const [image, setImage] = useState(1);
   let url = image;
@@ -49,14 +48,7 @@ const Sneakers = () => {
         </svg>
         <img
           className="big-sneaker"
-          alt="img"
-          onClick={() => {
-            document
-              .querySelector(".lightBox-div")
-              .classList.add("lightBox-toggle");
-            document.querySelector(".shadow").classList.add("shadow-toggle");
-          }}
-          src={url}
+          alt="img" src={url}
         />
         <svg
           onClick={() => {
@@ -80,7 +72,6 @@ const Sneakers = () => {
             fillRule="evenodd"
           />
         </svg>
-        <LightBox imageTrack={image} />
       </div>
       <div className="sneakers-col sneakers-col2">
         <div className={`small-sneaker-div ${image == 1 && "active-sneaker"}`}>
