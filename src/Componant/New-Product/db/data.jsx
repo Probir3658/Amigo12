@@ -75,7 +75,7 @@ const data = [
     id: 6,
     img: "./image/141E1.jpg",
     title: "MI-141E",
-    star:"Desk Calculator, Tilt Display",
+    star:"Desk Calculator",
     prevPrice: "₹580",
     newPrice: "501",
     price: "₹522",

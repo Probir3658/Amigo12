@@ -5,7 +5,7 @@ const Colors = ({ handleChange }) => {
   return (
     <>
       <div>
-        <h2 className="sidebar-title color-title">Key Features</h2>
+        <h2 className="sidebar-title color-title">Features</h2>
         <Input
           handleChange={handleChange}
           value="tgtkey"

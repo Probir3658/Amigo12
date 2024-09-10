@@ -34,6 +34,7 @@ function Maincard() {
     return filteredProducts.map(
       ({ img, title, star, reviews, prevPrice, newPrice, price, id,link }) => (
         // <Link to={`/product/${id}`} key={id}>
+        <div  className="product-grid">
         <Card
           img={img}
           title={title}
@@ -45,7 +46,7 @@ function Maincard() {
           id={id}
           link={link}
         />
-        // </Link>
+        </div>
       )
     );
   }
