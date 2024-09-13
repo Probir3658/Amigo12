@@ -57,7 +57,7 @@ function App() {
       element: (
         <div>
           <Navbar />
-          <Footer2 />
+          {/* <Footer2 /> */}
         </div>
       ),
     },
