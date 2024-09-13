@@ -28,7 +28,7 @@
 @media only screen and (max-width: 786px) {
     .img1{
         width: 100vw; 
-        height:150vw;  
+        height:550px;  
             background-image: url(./Sbanner/PH1.jpg);
             background-size: cover;
             background-position: center;
@@ -36,7 +36,7 @@
     }
     .img2{
         width: 100vw; 
-        height:150vw;    
+        height:550px;    
             background-image: url(./Sbanner/PH2.jpg);
             background-size: cover;
             background-position: center;
@@ -44,7 +44,7 @@
     }
     .img3{
         width: 100vw; 
-        height:150vw;  
+        height:550px;  
             background-image: url(./Sbanner/PH3.jpg);
             background-size: cover;
             background-position: center;

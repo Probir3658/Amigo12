@@ -57,6 +57,7 @@ function App() {
       element: (
         <div>
           <Navbar />
+          <Footer2 />
         </div>
       ),
     },

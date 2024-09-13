@@ -8,8 +8,8 @@ const Footer2 = () => {
     <>
       <div className="p2"></div>
       <div className="footer1">
-        <div className="row row-cols row-cols-md-3 ">
-          <div className="col ">
+        <div className="row">
+          <div className="col-sm space1">
             <div className="logo-footer-bg">
               <img src={logo} alt="LOGO" className="logo-footer" />
             </div>
@@ -20,10 +20,10 @@ const Footer2 = () => {
               user-friendly functionality.
             </p>
           </div>
-          <div className="col">
+          <div className="col-sm">
             <div className="logo-footer-2">
               <h5 className="logo-footer-2-header">
-                <b>CONTACT</b>
+                <u> &nbsp;CONTACT&nbsp; </u>
               </h5>
               <div className="logo-footer-2-text">
                 <div className="footer-no-text mt-4">
@@ -56,7 +56,7 @@ const Footer2 = () => {
                     enquiry@amigocalculator.info
                   </div>
                 </a>
-                <a href="tel:+919382315415">
+                <a href="tel:+917044480444">
                   {" "}
                   <div className="footer-no-text text-white mt-4">
                     {" "}
@@ -70,16 +70,16 @@ const Footer2 = () => {
                     >
                       <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
                     </svg>
-                    + 91 9382315415
+                    + 91 7044480444
                   </div>
                 </a>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-sm">
             <div className="logo-footer-2">
               <h5 className="logo-footer-2-header">
-                <b>CATALOGUE</b>
+              <u> &nbsp;CATALOGUE&nbsp;</u>
               </h5>
               <div className="logo-footer-3">
                 <svg
@@ -96,10 +96,10 @@ const Footer2 = () => {
                   />
                 </svg>
               </div>
-              <div className="logo-footer-4">
+              <div className="logo-footer-4 ">
                 <a
                   href="#"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE  ms-1"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="#"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE ms-4"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="https://wa.me/+917044480444"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE ms-4"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/amigo_calculators/"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE ms-4"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
                   target="_blank"
                 >
                   <svg
