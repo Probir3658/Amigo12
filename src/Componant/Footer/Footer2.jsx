@@ -23,7 +23,7 @@ const Footer2 = () => {
           <div className="col-sm">
             <div className="logo-footer-2">
               <h5 className="logo-footer-2-header">
-                <u> &nbsp;CONTACT&nbsp; </u>
+                <b> &nbsp;CONTACT&nbsp; </b>
               </h5>
               <div className="logo-footer-2-text">
                 <div className="footer-no-text mt-4">
@@ -79,7 +79,7 @@ const Footer2 = () => {
           <div className="col-sm">
             <div className="logo-footer-2">
               <h5 className="logo-footer-2-header">
-              <u> &nbsp;CATALOGUE&nbsp;</u>
+              <b> &nbsp;CATALOGUE&nbsp;</b>
               </h5>
               <div className="logo-footer-3">
                 <svg
@@ -99,7 +99,7 @@ const Footer2 = () => {
               <div className="logo-footer-4 ">
                 <a
                   href="#"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE mx-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="#"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE mx-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="https://wa.me/+917044480444"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE mx-2"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@ const Footer2 = () => {
                 </a>
                 <a
                   href="https://www.instagram.com/amigo_calculators/"
-                  className="btn btn-floating btn-light btn-lg bg-WHITE spc1"
+                  className="btn btn-floating btn-light btn-lg bg-WHITE mx-2"
                   target="_blank"
                 >
                   <svg
